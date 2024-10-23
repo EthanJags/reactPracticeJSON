@@ -105,7 +105,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>JSON Viewer!</h1>
-      <h3>Made with ❤️ by Ethan Jagoda</h3>
+      
 
       {/* Include the SampleAPIs component */}
       <SampleAPIs onSelectApi={handleSelectApi} />
@@ -175,6 +175,7 @@ function App() {
             </div>
           </div>
           <Collapsible jsonPart={payload} defaultOpen={defaultOpen} />
+          <p style={{ textAlign: 'center', fontSize: '0.8em' }}>Made with ❤️ by Ethan Jagoda</p>
         </>
       )}
     </div>
