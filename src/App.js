@@ -175,7 +175,9 @@ function App() {
             </div>
           </div>
           <Collapsible jsonPart={payload} defaultOpen={defaultOpen} />
-          <p style={{ textAlign: 'center', fontSize: '0.8em' }}>Made with ❤️ by Ethan Jagoda</p>
+          <p style={{ textAlign: 'center', fontSize: '0.8em' }}>
+            Made with ❤️ by <a href="https://ethanjagoda.com" target="_blank" rel="noopener noreferrer">Ethan Jagoda</a>
+          </p>
         </>
       )}
     </div>
