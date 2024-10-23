@@ -1,0 +1,37 @@
+/* SampleApis.css */
+
+.sample-apis {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sample-apis h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  
+  .sample-apis ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sample-apis li {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .sample-api-button {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+  }
+  
+  .sample-api-button:hover {
+    background-color: #9b59b6;
+  }
